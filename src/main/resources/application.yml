@@ -1,6 +1,6 @@
 server:
-  context-path: /mail-producer
-  port: 9001
+  context-path: /mail-consumer
+  port: 9002
   session:
     timeout: 900
 
