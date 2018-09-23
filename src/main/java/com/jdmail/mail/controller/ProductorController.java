@@ -29,10 +29,10 @@ public class ProductorController {
             mailSend.setSendCount(0L);
             mailSend.setSendStatus(MailStatus.DRAFT.getCode());
             mailSend.setUpdateBy("");
-            mailSendService.insert(mailSend);
+            //mailSendService.insert(mailSend);
 
             //3把数据放入redis
-            mailSendService.sendRedis(mailSend);
+            //mailSendService.sendRedis(mailSend);
 
         } catch (Exception e) {
             LOGGER.error("异常信息：{}", e);
