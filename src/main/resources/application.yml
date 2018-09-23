@@ -30,7 +30,7 @@ spring:
     host: smtp.163.com
     port: 25
     username: wangyi_062500@163.com
-    password: XXXXXX
+    password: XXXXX
 
     mail:
       smtp:
